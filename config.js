@@ -1,7 +1,7 @@
-export const siteName = 'Sudanses Archive';
-export const siteUrl = 'https://sudansesarchive.org/';
+export const siteName = 'Sudanese Archive';
+export const siteUrl = 'https://sudanesearchive.org/';
 export const siteDescription = ' Preserving Documentation of Human rights Violations';
 export const generatorName = 'Metalsmith';
 export const generatorUrl = 'http://metalsmith.io/';
-export const contentSource = '../sudansesarchive-investigations';
+export const contentSource = '../sudanesearchive-investigations';
 

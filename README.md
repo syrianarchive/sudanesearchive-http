@@ -1,8 +1,8 @@
-# Sudanses Archive website
+# Sudanese Archive website
 
-The website for sudansesarchive.org
+The website for sudanesearchive.org
 
-This site uses the [mnemonic-archive-http](https://github.com/sudansesarchive/mnemonic-archive-http) module which is a static website using metalsmith.  It generates static html pages, that pull in a react application for the dynamic elements. The react application calls the api for the database and statistics.
+This site uses the [mnemonic-archive-http](https://github.com/sudanesearchive/mnemonic-archive-http) module which is a static website using metalsmith.  It generates static html pages, that pull in a react application for the dynamic elements. The react application calls the api for the database and statistics.
 
 
 ## Dependencies
@@ -50,7 +50,7 @@ After the deploy steps worked well, running an `npm run dev`  should set up the 
 ```
 server {
   listen 80;
-  server_name sudansesarchive.org;
+  server_name sudanesearchive.org;
   client_max_body_size 20M;
   return 301 https://$host$request_uri;
 }
@@ -58,7 +58,7 @@ server {
 server {
   listen 443 ssl;
   client_max_body_size 20M;
-  server_name sudansesarchive.org ;
+  server_name sudanesearchive.org ;
 
   # SSL STUFF
 

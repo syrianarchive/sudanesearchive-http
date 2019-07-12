@@ -1,11 +1,11 @@
 {
-  "name": "sudansesarchive-http",
+  "name": "sudanesearchive-http",
   "version": "1.0.0",
-  "description": "the flat html website for sudansesarchive.org",
+  "description": "the flat html website for sudanesearchive.org",
   "main": "index.js",
   "config": {
-    "markdownSourceGitUrl": "https://github.com/syrianarchive/sudansesarchive-investigations.git",
-    "markdownSourceGitName": "sudansesarchive-investigations",
+    "markdownSourceGitUrl": "https://github.com/syrianarchive/sudanesearchive-investigations.git",
+    "markdownSourceGitName": "sudanesearchive-investigations",
     "boilerplateSourceGitUrl": "https://github.com/syrianarchive/mnemonic-archive-http.git"
   },
   "scripts": {
